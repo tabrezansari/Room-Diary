@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^5.4.2",
+    "moment": "^2.22.0",
+    "native-base": "^2.4.1",
+    "npm": "^5.8.0",
+    "react": "16.3.1",
+    "react-moment": "^0.7.0",
+    "react-native": "0.55.1",
+    "react-native-awesome-alerts": "^1.0.7",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-datepicker-dialog": "0.0.9",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-onesignal": "^3.2.6",
+    "react-native-popup-dialog": "^0.15.0",
+    "react-native-prompt-android": "^0.3.3",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^1.5.11"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
